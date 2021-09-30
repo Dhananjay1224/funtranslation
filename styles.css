@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: rgb(115, 115, 243);
+}
+body{
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: large;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    
+}
+
+#output{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+nav{
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+footer p{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+#btn-translate{
+    background-color: brown;
+    color: wheat;
+    padding: 0.5rem;
+
+}
+
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
